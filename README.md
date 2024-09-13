@@ -5,12 +5,12 @@
     - reactive
       - reactive
       - toReactive
-    - ref.ts
+    - ref
       - ref
       - toRefs
       - proxyRefs
     - effect
-      -effect
-      -trackEffeck
-      -triggerEffects
+      - effect
+      - trackEffeck
+      - triggerEffects
   - shared
