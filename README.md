@@ -1,5 +1,5 @@
 # 项目结构
 
 - packages
--- reactivity
+  - reactivity
 -- shared
