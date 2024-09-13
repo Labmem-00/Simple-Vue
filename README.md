@@ -12,5 +12,5 @@
     - effect
       - effect
       - trackEffeck
-      - triggerEffects
+      - triggerEffec
   - shared
