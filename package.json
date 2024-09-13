@@ -1,0 +1,19 @@
+{
+  "name": "simple-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js reactivity -f esm"
+  },
+  "keywords": [],
+  "author": "Labmem-00",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.23.1",
+    "minimist": "^1.2.8",
+    "typescript": "^5.6.2",
+    "vue": "^3.5.4"
+  }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module">
+        // import {reactive,effect,ref} from "/node_modules/@vue/reactivity/dist/reactivity.esm-browser.js"
+        import {reactive,effect,ref,toRefs,proxyRefs} from './reactivity.js'
+        let obj = {name:"jwt",age:30, flag:true,ok:{name:2}};
+        let state = reactive(obj)
+        console.log(state)
+    </script>
+
+</body>
+</html>
