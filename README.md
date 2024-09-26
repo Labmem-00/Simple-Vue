@@ -1,3 +1,4 @@
+简化版vue3核心功能实现，轻松了解框架架构与渲染流程
 - packages
   - reactivity
     - reactive
