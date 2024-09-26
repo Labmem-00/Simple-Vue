@@ -27,6 +27,24 @@ importers:
         specifier: workspace:*
         version: link:../shared
 
+  packages/runtime-core:
+    dependencies:
+      '@simple-vue/reactivity':
+        specifier: workspace:*
+        version: link:../reactivity
+      '@simple-vue/shared':
+        specifier: workspace:*
+        version: link:../shared
+
+  packages/runtime-dom:
+    dependencies:
+      '@simple-vue/runtime-core':
+        specifier: workspace:*
+        version: link:../runtime-core
+      '@simple-vue/shared':
+        specifier: workspace:*
+        version: link:../shared
+
   packages/shared: {}
 
 packages:

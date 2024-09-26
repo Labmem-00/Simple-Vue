@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="module">
+        // import {reactive,effect,ref,watch,computed} from "/node_modules/@vue/reactivity/dist/reactivity.esm-browser.js"
+        import {reactive,effect,ref,toRefs,proxyRefs,computed,watch,watchEffect} from './reactivity.js'
+        let obj = {name:"jwt",age:30, flag:true,ok:{name:2}};
+        let state = reactive(obj);
+        const val = ref("");
+        function getDate(timer){
+            return new Promise((resolve,reject)=>{
+                setTimeout(()=>{
+                    resolve(timer)
+                },timer)
+            })
+        }
+        let timer  = 5000;
+        watch(val,async()=>{
+            let r= await getDate(timer);
+            app.innerHTML =r;
+        })
+    </script>
+</body>
+</html>

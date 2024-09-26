@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev.js reactivity -f esm"
+    "dev": "node scripts/dev.js runtime-dom -f esm"
   },
   "keywords": [],
   "author": "Labmem-00",

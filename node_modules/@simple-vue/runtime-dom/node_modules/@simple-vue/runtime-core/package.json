@@ -1,0 +1,19 @@
+{
+    "name": "@simple-vue/runtime-core",
+    "version": "1.0.0",
+    "module": "dist/runtime-core.esm-bundler.js",
+    "unpkg": "dist/runtime-core.global.js",
+    "buildOptions": {
+        "name": "RuntimeCore",
+        "formats": [
+            "esm-bundler",
+            "sem-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "dependencies": {
+        "@simple-vue/reactivity": "workspace:*",
+        "@simple-vue/shared": "workspace:*"
+    }
+}
