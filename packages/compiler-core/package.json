@@ -1,0 +1,17 @@
+{
+    "name": "@simple-vue/compiler-core",
+    "version": "1.0.0",
+    "module": "dist/compiler-core.esm-bundler.js",
+    "buildOptions": {
+        "name": "VueCompiler",
+        "formats": [
+            "esm-bundler",
+            "sem-browser",
+            "cjs",
+            "global"
+        ]
+    },
+    "dependencies": {
+        "@simple-vue/shared": "workspace:*"
+    }
+}
