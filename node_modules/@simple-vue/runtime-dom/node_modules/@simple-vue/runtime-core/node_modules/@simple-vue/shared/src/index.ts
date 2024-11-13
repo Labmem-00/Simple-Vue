@@ -1,4 +1,5 @@
 export * from "./shapeFlags"
+export * from "./patchFlags"
 
 export function isObject(value) {
     return typeof(value) === "object" && value !== null;
